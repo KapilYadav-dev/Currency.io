@@ -19,7 +19,8 @@ app.get("/classify", async (req, res) => {
     return res.json({
         "Result :":predictions[index].class,
         "Probability":predictions[index].score,
-        "imgUrl":url
+        "ImgUrl":url,
+        "More-api's":"https://www.github.com/KapilYadav-dev"
     });
   }).catch((e) => {
     console.error(e);
