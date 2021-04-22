@@ -10,7 +10,7 @@ This will predict the img and give you the output in json format...
 
 ## GET REQUEST on BASE_URL/classify with Query param <b>url<b>
 
-### http://localhost:8080/classify?url=https://raw.githubusercontent.com/anilsathyan7/indian-currency-classification/master/data/10/303_cb.png
+### https://currencyio.kapilyadavdev.repl.co/classify?url=https://www.travelescape.in/wp-content/uploads/2019/10/20-rs-New-Note-Front-View-1024x768.jpg
 
 # Response example
 
